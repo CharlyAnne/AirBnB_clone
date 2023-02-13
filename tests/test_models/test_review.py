@@ -181,7 +181,7 @@ class TestReview_to_dict(unittest.TestCase):
         tdict = {
             'id': '123456',
             '__class__': 'Review',
-[O            'created_at': dt.isoformat(),
+            'created_at': dt.isoformat(),
             'updated_at': dt.isoformat(),
         }
         self.assertDictEqual(rv.to_dict(), tdict)

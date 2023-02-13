@@ -137,7 +137,7 @@ class TestCity_save(unittest.TestCase):
         cy.save()
         cyid = "City." + cy.id
         with open("file.json", "r") as f:
-[O            self.assertIn(cyid, f.read())
+            self.assertIn(cyid, f.read())
 
 
 class TestCity_to_dict(unittest.TestCase):
