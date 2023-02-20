@@ -2,7 +2,7 @@
 div.container{
 	max-width: 1000px;
 	margin: 30px auto;
-	text-align: center;
+	/* text-align: center; */
 }
 section.filters{
 	width: 100%;
@@ -12,7 +12,7 @@ section.filters{
 	background-color: white;
 }
 section.filters button{
-	font-size:18px;
+	font-size: 18px;
 	background-color: #FF5A5F;
 	color: #FFFFFF;
 	height: 48px;
@@ -25,7 +25,7 @@ section.filters button{
 section.filters button:hover{
 	opacity: .9;
 }
-.location, .amenities {
+.locations, .amenities {
 	height: 100%;
 	width: 25%;
 	float: left;
