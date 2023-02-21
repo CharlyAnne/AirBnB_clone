@@ -91,10 +91,6 @@ div.reviews h2 {
 div.reviews p{
 	font-size: 12px;
 }
-.places article{
-	display: flex;
-	flex-direction: column;
-}
 @media (max-width: 480px) {
 	article {
 	  width: 300px;
